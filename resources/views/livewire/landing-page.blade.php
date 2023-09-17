@@ -21,7 +21,7 @@
     <x-secondmodal class="bg-pink-500" trigger="showSubscribe">
         <p class="text-white text-5xl font-extrabold text-center">Let's do it!</p>
         <form class="flex flex-col items-center p-24" wire:submit.prevent="subscribe">
-            <x-text-input type="email" name="" placeholder="Email address" class="px-5 py-3 w-80 border border-blue-400" wire:model="email"/>
+            <x-text-input type="email" name="email" placeholder="Email address" class="px-5 py-3 w-80 border border-blue-400" wire:model="email"/>
             <span class="text-gray-100 text-xs">We will send you a confirmation email</span>
             <x-primary-button class="px-5 py-3 mt-5 w-80 bg-blue-500 justify-center">Get in</x-primary-button>
         </form>
