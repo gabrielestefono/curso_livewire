@@ -15,5 +15,5 @@ class Subscriber extends Model
 
     protected $cast = [
         'email_verified_at' => 'datetime',
-    ]
+    ];
 }
